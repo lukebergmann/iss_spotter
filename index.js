@@ -20,7 +20,7 @@ fetchCoordsByIP('24.64.125.127', (error, coordinates) => {
   console.log('It worked! Returned coordinates:', coordinates);
 });
 
-const myCoords = { latitude: 51.0868, longitude: -115.3504 }
+const myCoords = { latitude: 51.0868, longitude: -115.3504 };
 fetchISSFlyOverTimes(myCoords, (error, passTime) => {
   if (error) {
     console.log("It didn't work!", error);
